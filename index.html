@@ -4,14 +4,74 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Narasimharao's Embedded Projects</title>
+
 <style>
-  body { font-family: Arial, sans-serif; margin: 20px; }
-  nav a { margin: 0 15px; text-decoration: none; color: #0077cc; }
-  nav a:hover { text-decoration: underline; }
-  footer { margin-top: 40px; font-size: 0.9em; }
+  /* 🔥 Animated Multi-Color Gradient Background */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,
+      #6a11cb, 
+      #2575fc,
+      #ff9a9e,
+      #fad0c4
+    );
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    padding: 20px;
+    color: #fff;
+  }
+
+  @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  /* Header & Navigation */
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ffeeba;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+  nav a:hover {
+    color: #fff;
+    text-shadow: 0 0 8px #ffffff;
+  }
+
+  /* Content Box (Glass Effect) */
+  section, footer {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    margin: 20px auto;
+    max-width: 900px;
+  }
+
+  h1, h2 {
+    text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+  }
+
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+  }
 </style>
+
 </head>
 <body>
+
 <header>
   <h1>Welcome to Narasimharao's Embedded Projects & Resources</h1>
   <nav>
@@ -34,6 +94,7 @@
 <footer>
   <p>&copy; 2025 Narasimharao</p>
 </footer>
+
 </body>
 </html>
 
